@@ -14,13 +14,16 @@ class Settings extends Model
 
     protected $guarded = ['id'];
 
-    protected $casts = [
-        'domain_verification' => 'boolean',
-    ];
-
     public static function current()
     {
         return self::cacheGet(1)
             ?? self::factory()->create();
+    }
+
+    protected function casts(): array
+    {
+        return [
+            'domain_verification' => 'boolean',
+        ];
     }
 }
