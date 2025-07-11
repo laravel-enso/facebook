@@ -13,8 +13,6 @@ class SettingsFactory extends Factory
     {
         return [
             'domain_verification' => false,
-            'verification_code' => null,
-            'page_id' => null,
         ];
     }
 }

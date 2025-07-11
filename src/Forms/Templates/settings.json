@@ -2,26 +2,8 @@
     "routePrefix": "integrations.facebook.settings",
     "sections": [
         {
-            "columns": 2,
+            "columns": 1,
             "fields": [
-                {
-                    "label": "Verification Code",
-                    "name": "verification_code",
-                    "value": "",
-                    "meta": {
-                        "type": "input",
-                        "content": "encrypt"
-                    }
-                },
-                {
-                    "label": "Page Id",
-                    "name": "page_id",
-                    "value": "",
-                    "meta": {
-                        "type": "input",
-                        "content": "encrypt"
-                    }
-                },
                 {
                     "label": "Domain Verification",
                     "name": "domain_verification",
