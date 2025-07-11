@@ -10,8 +10,6 @@ class ValidateSettings extends FormRequest
     {
         return [
             'domain_verification' => 'required|boolean',
-            'verification_code' => 'nullable|string',
-            'page_id' => 'nullable|string',
         ];
     }
 }
