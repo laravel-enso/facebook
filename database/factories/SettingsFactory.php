@@ -11,8 +11,6 @@ class SettingsFactory extends Factory
 
     public function definition()
     {
-        return [
-            'domain_verification' => false,
-        ];
+        return ['domain_verification' => false];
     }
 }
