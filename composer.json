@@ -40,5 +40,6 @@
                 "LaravelEnso\\Facebook\\AppServiceProvider"
             ]
         }
-    }
+    },
+    "license": "MIT"
 }
