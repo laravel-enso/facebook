@@ -93,6 +93,10 @@ Required Enso packages:
 
 - [`laravel-enso/core`](https://docs.laravel-enso.com/backend/core.html) [↗](https://github.com/laravel-enso/core)
 
+Companion frontend package:
+
+- [`@enso-ui/facebook`](https://docs.laravel-enso.com/frontend/facebook.html) [↗](https://github.com/enso-ui/facebook)
+
 ## Contributions
 
 are welcome. Pull requests are great, but issues are good too.
