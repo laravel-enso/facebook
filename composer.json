@@ -1,7 +1,7 @@
 {
     "name": "laravel-enso/facebook",
     "type": "library",
-    "description": "",
+    "description": "Facebook verification settings for Laravel Enso",
     "authors": [
         {
             "name": "Adrian Ocneanu",
@@ -23,7 +23,7 @@
         }
     ],
     "keywords": [],
-    "homepage": "https://www.laravel-enso.com",
+    "homepage": "https://github.com/laravel-enso/facebook",
     "require": {
         "php": "^8.0",
         "laravel-enso/core": "^12.0"
