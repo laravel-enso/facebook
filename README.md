@@ -92,3 +92,9 @@ Behavior:
 Required Enso packages:
 
 - [`laravel-enso/core`](https://docs.laravel-enso.com/backend/core.html) [↗](https://github.com/laravel-enso/core)
+
+## Contributions
+
+are welcome. Pull requests are great, but issues are good too.
+
+Thank you to all the people who already contributed to Enso!
