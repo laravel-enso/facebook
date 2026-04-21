@@ -5,11 +5,10 @@ namespace LaravelEnso\Facebook\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Rememberable\Traits\Rememberable;
 
 class Settings extends Model
 {
-    use HasFactory, Rememberable;
+    use HasFactory;
 
     protected $table = 'facebook_settings';
 
@@ -17,7 +16,7 @@ class Settings extends Model
 
     public static function current()
     {
-        return self::cacheGet(1)
+        return self::find(Config::get('enso.facebook.settingsId'))
             ?? self::factory()->create();
     }
 
