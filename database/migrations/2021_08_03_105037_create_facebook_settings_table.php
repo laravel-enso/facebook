@@ -10,6 +10,8 @@ return new class extends Migration {
         Schema::create('facebook_settings', function (Blueprint $table) {
             $table->increments('id');
 
+            $table->string('verification_code')->nullable();
+            $table->string('page_id')->nullable();
             $table->boolean('domain_verification');
 
             $table->timestamps();

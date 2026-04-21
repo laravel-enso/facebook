@@ -22,12 +22,12 @@ class Settings extends Model
 
     public static function verificationCode(): ?string
     {
-        return Config::get('enso.facebook.verificationCode') ?? self::current()->verification_code;
+        return self::current()->verification_code;
     }
 
     public static function pageId(): ?string
     {
-        return Config::get('enso.facebook.pageId') ?? self::current()->page_id;
+        return self::current()->page_id;
     }
 
     protected function casts(): array

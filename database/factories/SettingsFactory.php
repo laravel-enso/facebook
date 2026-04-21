@@ -11,6 +11,10 @@ class SettingsFactory extends Factory
 
     public function definition()
     {
-        return ['domain_verification' => false];
+        return [
+            'verificationCode' => null,
+            'pageId' => null,
+            'domain_verification' => false,
+        ];
     }
 }
