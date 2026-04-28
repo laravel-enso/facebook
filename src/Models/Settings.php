@@ -16,8 +16,10 @@ class Settings extends Model
 
     public static function current(): self
     {
-        return self::find(Config::get('enso.facebook.settingsId'))
-            ?? self::factory()->create();
+        $id = Config::get('enso.facebook.settingsId');
+
+        return self::find($id)
+            ?? self::factory()->create(['id' => $id]);
     }
 
     public static function verificationCode(): ?string
